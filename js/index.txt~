@@ -1,0 +1,24 @@
+var addnote = document.querySelector('.add');
+var  actualnote=[];
+
+addnote.onclick=function()
+{ var note=document.getElementById("fielddd").value; 
+ alert(note);
+ actualnote.push(note);
+}
+var deletenote=document.querySelector('.delete') ;
+deletenote.onclick=function()
+{
+  
+}
+var see=document.querySelector('.see');
+see.onclick=function()
+{
+  
+ 
+    document.getElementByTagName("ul").innerHTML=actualnote;
+  
+  
+        
+  
+}
